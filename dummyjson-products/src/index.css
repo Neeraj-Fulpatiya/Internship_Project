@@ -1,0 +1,45 @@
+body {
+  margin: 0;
+  /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+/* font-family: 'Courier New', Courier, monospace; */
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.product-card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  margin: 8px;
+  padding: 8px 16px;
+  cursor: pointer;
+  border: none;
+  background-color: #83adda;
+  box-shadow: 
+  1px 2px 2px rgba(46, 105, 182, 0.523),   
+  inset 2px 3px 2px rgba(68, 63, 63, 0.403);
+  color: rgb(11, 9, 9);
+  border-radius: 4px;
+  font-weight: 600;
+}
+
+button:hover{
+  background-color: rgb(60, 132, 214);
+  transition: transform 0.3s ease;
+  scale: 1.05;
+}
